@@ -1,5 +1,5 @@
 """
-Source configuration for the ImmoMenu News Scraper.
+Source configuration for the Swiss Real Estate News Scraper.
 
 TWO SOURCE TYPES ARE SUPPORTED:
 

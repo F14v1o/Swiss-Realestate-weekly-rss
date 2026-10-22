@@ -1,4 +1,4 @@
-# ImmoMenu AI Newsroom — Automated Real Estate Intelligence Pipeline
+# Swiss Real Estate AI Newsroom — Automated News Intelligence Pipeline
 
 > **A fully automated, AI-powered news intelligence system built for a Swiss real estate platform.**  
 > Collects, filters, enriches, and publishes industry-relevant news — twice daily, hands-free.
@@ -143,7 +143,7 @@ An automated pipeline that does the monitoring, filtering, summarization, and pu
 ## Repository Structure
 
 ```
-immomenu-news-scraper/
+swiss-realestate-weekly-rss/
 ├── scraper.py          # Main pipeline logic
 ├── sources.py          # Source configuration + AI parameters
 ├── requirements.txt    # Python dependencies (pinned versions)

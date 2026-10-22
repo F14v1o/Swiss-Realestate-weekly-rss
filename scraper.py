@@ -1,5 +1,5 @@
 """
-ImmoMenu News Scraper
+Swiss Real Estate News Scraper
 
 Runs via GitHub Actions twice daily. Fetches news from configured sources
 (RSS feeds + HTML listings), sends each item to Claude for relevance scoring,
@@ -50,7 +50,7 @@ claude = Anthropic(api_key=ANTHROPIC_KEY)
 
 # Polite User-Agent — many servers block anonymous scrapers
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; ImmoMenuNewsBot/1.0; "
+    "Mozilla/5.0 (compatible; SwissRealEstateNewsBot/1.0; "
     "+https://[YOUR-DOMAIN]/news)"
 )
 HEADERS = {"User-Agent": USER_AGENT}
@@ -372,7 +372,7 @@ def process_item(item: dict, source: dict, stats: dict):
 
 
 def main():
-    print(f"=== ImmoMenu Scraper run {datetime.now().isoformat()} ===")
+    print(f"=== News scraper run {datetime.now().isoformat()} ===")
 
     stats = {
         "found": 0,
